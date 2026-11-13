@@ -1,4 +1,4 @@
-version = "14.1.0"
+version = "14.1.1"
 format_version = "1.0"
 name = "FreeBSDSysroot"
 julia_compat = "1.6"
@@ -12,11 +12,11 @@ lazy = "false"
 src_version = "14.1.0"
 
     [builds.artifact]
-    treehash = "sha1:975d0f064b7f464fdd769586c9cf4d1382cc87c5"
+    treehash = "sha1:8ab58422b969b045ec0d9bce8ffc06d27a7c5de1"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:89d5aa757f4647fc74c4b95dc8d324d21b728b5a706beb9c17522a86012a66fd"
-        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-FreeBSDSysroot-v14.1.0-x86_64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:9928f6e41e0806c0509bb9fe16548fc3c63cac76ed268ba5463f653ff18645bf"
+        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-FreeBSDSysroot-v14.1.1-x86_64-unknown-freebsd14.1.tar.gz"
 
     [[builds.licenses]]
     filename = "COPYRIGHT"
@@ -37,18 +37,18 @@ src_version = "14.1.0"
     dont_dlopen = true
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:5e18c1b103ef84507a1d620c13cd713dcd34ea37"
+    treehash = "sha1:43374f05ee997af8504f6c87eb8901f406fa1c2b"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:d0f8099984e1498ac4d3b879db17b52aa5e3455780c6661e7a96f2e9d4daea5d"
-        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-extract_log-v14.1.0-x86_64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:3be0a1e6ce4df73f38499d4239a1e98908f7b5b68bddf86a0870099c741b7cea"
+        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-extract_log-v14.1.1-x86_64-unknown-freebsd14.1.tar.gz"
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6919f45340cb19fe0cba042cf91215180022cc73"
+    treehash = "sha1:9e70b2a3b2162c287bb67a8cc7624a09cf9d66e7"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:263715c63603b797688219850a93e40acbad2ab6ec6dd075c1a141aa380b52cf"
-        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-build_log-v14.1.0-x86_64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:6e10f81fff2604d353dccb20b13ff12b20b2dbe2c1810ee90f11e08a1deca561"
+        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-build_log-v14.1.1-x86_64-unknown-freebsd14.1.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:883c05e1c24d459c1a7c4401ec5e5c824cb05006"
@@ -66,11 +66,11 @@ lazy = "false"
 src_version = "14.1.0"
 
     [builds.artifact]
-    treehash = "sha1:ed605ea7b532d5faabe13b86f43a7fce6a077a9f"
+    treehash = "sha1:0deb4c3ccc7de714c618cb028479d13c7fc65d7f"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:b26c14734a5aee4988bd7ae72b920280db61afe21774fc3f9f7d0e2ce4f759f6"
-        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-FreeBSDSysroot-v14.1.0-aarch64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:5a9455aa27925ad433b9e20d43057e0485d679369d2e473d27305a8352f27e53"
+        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-FreeBSDSysroot-v14.1.1-aarch64-unknown-freebsd14.1.tar.gz"
 
     [[builds.licenses]]
     filename = "COPYRIGHT"
@@ -91,18 +91,18 @@ src_version = "14.1.0"
     dont_dlopen = true
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:01d8951ae55cfb0c4554098fdddde5fffd5d842b"
+    treehash = "sha1:e6c3edfdc3f6fcff616973cc13fc8aac64be866d"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:06e037b7dfeb9a18517cbf64de359ecf02ccc4e37c1a335387e1b1caf4ea2ed7"
-        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-extract_log-v14.1.0-aarch64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:0a6873070c13f6cdd340c5ac7b9ab0cc7e118a42e0f78547dfaac90d421cff54"
+        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-extract_log-v14.1.1-aarch64-unknown-freebsd14.1.tar.gz"
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:3363087e62c8bce312d9d3f1d7619f4d5aa59659"
+    treehash = "sha1:c91e4bf4200b3f004f075de20aaeb87b9821af88"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:edbbb6530aa84a483aadb945af1857a42c7e7146da0b79153cf69268a9d0b7aa"
-        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.0/FreeBSDSysroot-build_log-v14.1.0-aarch64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:5a76362546e59d70630ae5ffd8c9943ea2861678f5c324dd9765a8926de32e42"
+        url = "https://github.com/JuliaBinaryWrappers/FreeBSDSysroot_jll.jl/releases/download/FreeBSDSysroot-v14.1.1/FreeBSDSysroot-build_log-v14.1.1-aarch64-unknown-freebsd14.1.tar.gz"
 
     [[builds.sources]]
     treehash = "sha1:883c05e1c24d459c1a7c4401ec5e5c824cb05006"
